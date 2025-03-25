@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
   spec.name         = 'ZXFramework'
   spec.version      = '2.1.0'
   spec.summary      = '宅心科技广告SDK'
-  spec.description  = <<-DESC 依赖四大联盟SDK DESC 
+  spec.description  = '依赖四大联盟SDK' 
   spec.homepage     = 'https://github.com/ZhaiAd/ZXFramework'
   spec.license      = 'MIT'
   spec.author       = { 'propitious' => '136702480@qq.com' }
