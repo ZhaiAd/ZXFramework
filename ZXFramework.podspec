@@ -16,5 +16,5 @@ Pod::Spec.new do |spec|
   spec.dependency 'KSAdSDK', '~> 3.3.74'
   spec.dependency 'BaiduMobAdSDK', '~> 5.373'
   spec.dependency 'GDTMobSDK', '~> 4.15.30'
-  spec.dependency 'Ads-CN', '~> 6.5.1.2', :subspecs => ['BUAdSDK']
+  spec.dependency 'Ads-CN/BUAdSDK', '~> 6.5.1.2'
 end
