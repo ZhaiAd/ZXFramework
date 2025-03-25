@@ -5,10 +5,10 @@ Pod::Spec.new do |spec|
   spec.summary      = '宅心科技广告SDK'
   spec.description  = <<-DESC 依赖四大联盟SDK DESC 
   spec.homepage     = 'https://github.com/ZhaiAd/ZXFramework'
-  spec.license      = 'MIT (example)'
+  spec.license      = 'MIT'
   spec.author       = { 'propitious' => '136702480@qq.com' }
   spec.platform     = :ios, '11.0'
-  spec.swift_version    = '5.0'
+  spec.swift_version  = '5.0'
   spec.source       = { :git => 'https://github.com/ZhaiAd/ZXFramework.git', :tag => 'spec.version.to_s' }
   spec.source_files  = 'ZXFramework/*'
   spec.frameworks    = 'Foundation','UIKit'
