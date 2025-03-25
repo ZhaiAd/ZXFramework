@@ -9,9 +9,9 @@ Pod::Spec.new do |spec|
   spec.author       = { 'propitious' => '136702480@qq.com' }
   spec.platform     = :ios, '11.0'
   spec.swift_version    = '5.0'
-  spec.source       = { :git => 'https://github.com/ZhaiAd/ZXFramework.git', :tag => 'spec.version' }
+  spec.source       = { :git => 'https://github.com/ZhaiAd/ZXFramework.git', :tag => 'spec.version.to_s' }
   spec.source_files  = 'ZXFramework/*'
-  spec.frameworks = 'Foundation','UIKit'
+  spec.frameworks    = 'Foundation','UIKit'
   spec.requires_arc = true
   spec.dependency 'KSAdSDK', '~> 3.3.74'
   spec.dependency 'BaiduMobAdSDK', '~> 5.373'
