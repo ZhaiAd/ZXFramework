@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
   spec.name         = 'ZXFramework'
   spec.version      = '2.1.0'
   spec.summary      = '宅心科技广告SDK'
-  spec.description  = '依赖四大联盟SDK' 
+  spec.description  = <<-DESC 依赖四大联盟SDK DESC 
   spec.homepage     = 'https://github.com/ZhaiAd/ZXFramework'
   spec.license      = 'MIT (example)'
   spec.author       = { 'propitious' => '136702480@qq.com' }
@@ -15,6 +15,6 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
   spec.dependency 'KSAdSDK', '~> 3.3.74'
   spec.dependency 'BaiduMobAdSDK', '~> 5.373'
-  spec.dependency 'GDTMobSDK', '~> '4.15.30'
-  spec.dependency 'Ads-CN', '~> '6.5.1.2', :subspecs => ['BUAdSDK']
+  spec.dependency 'GDTMobSDK', '~> 4.15.30'
+  spec.dependency 'Ads-CN', '~> 6.5.1.2', :subspecs => ['BUAdSDK']
 end
