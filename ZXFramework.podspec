@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.summary      = '宅心科技广告SDK'
   spec.description  = '依赖四大联盟SDK' 
   spec.homepage     = 'https://github.com/ZhaiAd/ZXFramework'
-  spec.license      = 'MIT'
+  spec.license      = { :type => 'MIT', :file => 'LICENSE' }
   spec.author       = { 'propitious' => '136702480@qq.com' }
   spec.platform     = :ios, '11.0'
   spec.swift_version  = '5.0'
