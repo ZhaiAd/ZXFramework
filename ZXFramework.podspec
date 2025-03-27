@@ -8,7 +8,6 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => 'MIT', :file => 'LICENSE' }
   spec.author       = { 'propitious' => '136702480@qq.com' }
   spec.platform     = :ios, '11.0'
-  spec.swift_version  = '5.0'
   spec.source       = { :git => 'https://github.com/ZhaiAd/ZXFramework.git', :tag => '2.1.0' }
   spec.source_files  = 'ZXFramework/*'
   spec.frameworks    = 'Foundation','UIKit'
