@@ -9,9 +9,9 @@ Pod::Spec.new do |spec|
   spec.author       = { 'propitious' => '136702480@qq.com' }
   spec.platform     = :ios, '11.0'
   spec.pod_target_xcconfig = { 'VALID_ARCHS[sdk=iphonesimulator*]' => '' }
-  spec.source       = { :git => 'https://github.com/ZhaiAd/ZXFramework.git', :tag => '2.1.0' }
-  spec.source_files  = 'ZXFramework'
-  spec.public_header_files = 'ZXFramework/*.h'
+  spec.source       = { :git => 'https://github.com/ZhaiAd/ZXFramework.git', :tag => 'spec.version' }
+  spec.source_files  = 'ZXFramework/Headers/*'
+  spec.public_header_files = 'ZXFramework/**/*.h'
   spec.frameworks    = 'Foundation','UIKit'
   spec.requires_arc = true
   spec.dependency 'KSAdSDK', '~> 3.3.74'
