@@ -10,11 +10,11 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author       = { "propitious" => "136702480@qq.com" }
   spec.platform     = :ios, "12.0"
-  spec.pod_target_xcconfig = { "VALID_ARCHS[sdk=iphonesimulator*]" => "" }
   spec.source       = { :git => "https://github.com/ZhaiAd/ZXFramework.git", :tag => spec.version }
   spec.vendored_frameworks = "ZXFramework.framework"
   spec.frameworks    = "Foundation","UIKit"
   spec.requires_arc = true
+  spec.pod_target_xcconfig = { "VALID_ARCHS[sdk=iphonesimulator*]" => "" }
   spec.dependency "KSAdSDK", "~> 3.3.74"
   spec.dependency "BaiduMobAdSDK", "~> 5.373"
   spec.dependency "GDTMobSDK", "~> 4.15.30"
