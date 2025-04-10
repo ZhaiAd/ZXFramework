@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author       = { "propitious" => "136702480@qq.com" }
   spec.platform     = :ios, "11.0"
-  spec.source       = { :git => "https://github.com/ZhaiAd/ZXFramework.git", :tag => spec.version }
+  spec.source       = { :git => "https://github.com/ZhaiAd/ZXFramework.git", :tag => spec.version.to_s }
   spec.vendored_frameworks = "ZXFramework.framework"
   spec.frameworks    = "Foundation","UIKit"
   spec.requires_arc = true
