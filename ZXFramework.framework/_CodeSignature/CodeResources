@@ -419,7 +419,7 @@
 		</dict>
 		<key>Headers/AdSDKManager.h</key>
 		<data>
-		n4BRsEYeuWUQbNLOT4gw5U/F1MQ=
+		ZoH3oWwUOc7yOH47CW7Ivmsrtcc=
 		</data>
 		<key>Headers/ZXAdSDKConfig.h</key>
 		<data>
@@ -431,7 +431,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		F0VTSfWThQsxhuO4UB+tg1W/mJ4=
+		Cnqy67wFQNmv0KZcx+bIYVsJaRk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1813,11 +1813,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			n4BRsEYeuWUQbNLOT4gw5U/F1MQ=
+			ZoH3oWwUOc7yOH47CW7Ivmsrtcc=
 			</data>
 			<key>hash2</key>
 			<data>
-			9mmodCw8tB9S9SLBMBofq7haIPtAtKl4xyV4ViwMEOo=
+			c8ivZUUXpxusEM6bKonQ1dbFVRMDo7q6ShQoL7YVZgo=
 			</data>
 		</dict>
 		<key>Headers/ZXAdSDKConfig.h</key>

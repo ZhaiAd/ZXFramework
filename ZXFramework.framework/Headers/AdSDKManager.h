@@ -16,7 +16,7 @@ typedef NS_ENUM(NSInteger, ZXAdSDKPlatform) {
     AdSDKKUAISHOU       = 1 << 1,
     AdSDKBAIQINGTENG    = 1 << 2,
     AdSDKYOULIANGHUI    = 1 << 3,
-    AdSDKZXKJ           = 1 << 4,
+    AdSDKZXKJ           = 1 << 4, //自研SDK
 };
 
 typedef NS_ENUM(NSInteger, ZXAdSDKType) {
